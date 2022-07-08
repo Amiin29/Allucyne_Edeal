@@ -1,6 +1,6 @@
 # Allucyne_Edeal_BDD
 requirments 
-  Install PyCharm
+Install PyCharm
   Install python 
 Run command line
   pip install selenium
