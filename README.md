@@ -1,15 +1,28 @@
 # Allucyne_Edeal_BDD
-requirments :
-Install PyCharm - 
-Install python | 
+
+## Run Locally
+Requirments
+```bash
+Install PyCharm 
+Install python
+```
 Run command line : 
+
+```bash
   pip install selenium - 
   pip install behave - 
-  pip install allure-behave | 
+  pip install allure-behave | ```
+
+Run Cypress Allure 
+```bash
+npm run dev
+npm run allure:report
+allure open
+```
 Steps of executing feature - 
-  behave - 
-  behave Features\ - 
-Run features and allure-Reports - 
-  behave -f allure_behave.formatter:AllureFormatter -o reports/ Freatures - 
-  allure serve reports/ -
+```bash 
+  Run features and allure-Reports - behave -f allure_behave     formatter:AllureFormatter -o reports/ Freatures - 
+  allure serve reports/
   
+```
+
